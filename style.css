@@ -1,0 +1,30 @@
+body {
+    background-image:url(https://img.freepik.com/free-vector/abstract-magic-bokeh-background-effect-blurred-light-energy-space_1284-42091.jpg?t=st=1739415924~exp=1739419524~hmac=5c7461f879ba11310a06f67aca9bf653bf8a43a4834911e0d255e4e06aaba102&w=740);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+form {
+    margin-bottom: 20px;
+}
+input, textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    width: 70%;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+block_names {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px;
+}
