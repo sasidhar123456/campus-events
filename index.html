@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Campus Events</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h1>Campus Events</h1>
+    <form action="/add" method="post">
+        <input type="text" name="name" placeholder="Event Name" required>
+        <input type="date" name="date" required>
+        <input type="text" name="location" placeholder="Location" required>
+        <textarea name="description" placeholder="Description"></textarea>
+        <button type="submit">Add Event</button>
+    </form>
+    <block_names>
+        {% for event in events %}
+            <li>{{ event["name"] }} - {{ event["date"] }} - {{ event["location"] }}
+              
+            </li>
+        {% endfor %}
+    </block_names>
+</body>
+</html>
